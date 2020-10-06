@@ -11,6 +11,7 @@ void compare(x) {
 		}
 	}
 	if (x < 0 && x != 0) {
+		printf("Negative real number and");
 		if (x % 2 == 1) {
 			printf(" odd number.");
 		}
